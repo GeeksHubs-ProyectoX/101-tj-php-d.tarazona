@@ -6,7 +6,6 @@ use Numbers\Numbers;
 
 class Test01Test extends TestCase
 {
-
     public function test01 () {
         $expected = array("0.0000", "0.0000", "1.0000") ;
         $result = (new Numbers())->apply(array(0));
